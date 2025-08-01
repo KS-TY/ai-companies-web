@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de una AI Company</title>    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <!-- Header Section -->
+        <header class="text-center mb-8 sm:mb-12">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-2">Análisis de una <span class="text-blue-600">AI Company</span></h1>
+            <p class="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto px-4">Una organización que integra la inteligencia artificial en el centro de su estrategia, operaciones y creación de valor.</p>
+        </header>
+
+        <!-- Pillars Section -->
+        <section id="pilares" class="mb-8 sm:mb-16">
+            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-8">Pilares Fundamentales</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6">
+                <!-- Pillar 1 -->
+                <div class="card p-6 text-center">
+                    <div class="text-4xl mb-4">💻</div>
+                    <h3 class="font-bold text-lg mb-2">Tecnología e Infraestructura</h3>
+                    <p class="text-gray-600 text-sm">Modernización, migración a la nube y construcción de pipelines de datos.</p>
+                </div>
+                <!-- Pillar 2 -->
+                <div class="card p-6 text-center">
+                    <div class="text-4xl mb-4">🧠</div>
+                    <h3 class="font-bold text-lg mb-2">Talento Humano e Investigación</h3>
+                    <p class="text-gray-600 text-sm">Roles especializados (CAIO/CDO), formación masiva y laboratorios de investigación.</p>
+                </div>
+                <!-- Pillar 3 -->
+                <div class="card p-6 text-center">
+                    <div class="text-4xl mb-4">🤝</div>
+                    <h3 class="font-bold text-lg mb-2">Cultura y Adopción</h3>
+                    <p class="text-gray-600 text-sm">Enfoque "Human-in-the-loop": optimizar las capacidades humanas, no reemplazarlas.</p>
+                </div>
+                <!-- Pillar 4 -->
+                <div class="card p-6 text-center">
+                    <div class="text-4xl mb-4">📊</div>
+                    <h3 class="font-bold text-lg mb-2">Datos y Gobernanza</h3>
+                    <p class="text-gray-600 text-sm">Gestión de datos robusta, con correcta catalogación y seguimiento del linaje.</p>
+                </div>
+                <!-- Pillar 5 -->
+                <div class="card p-6 text-center">
+                    <div class="text-4xl mb-4">📈</div>
+                    <h3 class="font-bold text-lg mb-2">Procesos y Medición ROI</h3>
+                    <p class="text-gray-600 text-sm">Evaluación continua del retorno financiero y experimentación para definir métricas.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Section -->
+        <section id="casos-de-estudio" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8">Casos de Estudio</h2>
+            <!-- Tabs -->
+            <div class="flex flex-col sm:flex-row justify-center border-b mb-6">
+                <button class="tab-button active text-base sm:text-lg font-semibold py-2 px-4 sm:px-6 border-b-2 w-full sm:w-auto" onclick="openTab(event, 'exitos')">Éxitos ✅</button>
+                <button class="tab-button text-base sm:text-lg font-semibold py-2 px-4 sm:px-6 border-b-2 border-transparent w-full sm:w-auto" onclick="openTab(event, 'fracasos')">Fracasos ❌</button>
+            </div>
+
+            <!-- Successes Content -->
+            <div id="exitos" class="tab-content active">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+                    <div class="card p-4 sm:p-6">
+                        <h3 class="font-bold text-xl mb-3 text-blue-700">Microsoft</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li><strong>Estrategia Integrada:</strong> Capacidades de IA en todo su portafolio (Copilots).</li>
+                            <li><strong>Núcleo del Negocio:</strong> Azure AI Services genera miles de millones como proveedor de infraestructura.</li>
+                            <li><strong>Cultura:</strong> Entrenamiento masivo en IA y equipos multidisciplinarios integrados.</li>
+                        </ul>
+                    </div>
+                    <div class="card p-4 sm:p-6">
+                        <h3 class="font-bold text-xl mb-3 text-blue-700">JPMorgan Chase</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li><strong>Arquitectura Propia:</strong> Desarrollo interno de "LLM Stack" para uso en toda la organización.</li>
+                            <li><strong>Liderazgo Dedicado:</strong> CAIO y CDO reportando directamente al CEO, con +400 proyectos de IA.</li>
+                            <li><strong>Enfoque Dual:</strong> Uso de IA generativa (análisis) y predictiva (fraude, riesgo).</li>
+                        </ul>
+                    </div>
+                    <div class="card p-4 sm:p-6">
+                        <h3 class="font-bold text-xl mb-3 text-blue-700">Capital One</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li><strong>100% en la Nube:</strong> Migración completa a AWS para facilitar MLOps y datos en tiempo real.</li>
+                            <li><strong>Gestión de Riesgo:</strong> Aprobación de créditos con datos alternativos y modelos de predicción de impago.</li>
+                            <li><strong>Experiencia de Cliente:</strong> Asesoría financiera personalizada a través de IA en su app móvil.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Failures Content -->
+            <div id="fracasos" class="tab-content">
+                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+                    <div class="card p-4 sm:p-6">
+                        <h3 class="font-bold text-xl mb-3 text-red-700">IBM (Watson)</h3>
+                        <p class="font-semibold mb-2">¿Qué falló?</p>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li><strong>Expectativas Exageradas:</strong> Watson fue promocionado como una IA general que no era.</li>
+                            <li><strong>Problemas de ROI:</strong> Integraciones costosas y mantenimiento complejo sin retorno claro.</li>
+                            <li><strong>Pérdida de Confianza:</strong> Clientes abandonaron los productos por falta de visión.</li>
+                        </ul>
+                    </div>
+                    <div class="card p-4 sm:p-6">
+                        <h3 class="font-bold text-xl mb-3 text-red-700">General Electric (Predix)</h3>
+                        <p class="font-semibold mb-2">¿Qué falló?</p>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li><strong>Falta de Foco:</strong> Intentó ser industrial, de software y de IA a la vez, confundiendo al mercado.</li>
+                            <li><strong>Desalineación Cultural:</strong> Equipos técnicos y de negocio no estaban preparados para el cambio.</li>
+                            <li><strong>Pérdidas Masivas:</strong> La división GE Digital fue desmantelada y Predix vendida.</li>
+                        </ul>
+                    </div>
+                    <div class="card p-4 sm:p-6">
+                        <h3 class="font-bold text-xl mb-3 text-red-700">Zume Inc.</h3>
+                        <p class="font-semibold mb-2">¿Qué falló?</p>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li><strong>Visión Sobreinflada:</strong> Se presentaba como una "AI logistics platform" sin una tecnología robusta.</li>
+                            <li><strong>Desconexión Operativa:</strong> La automatización (robots de pizza) no era rentable ni escalable.</li>
+                            <li><strong>Pérdida de Foco:</strong> Cambió de pizza a logística y empaques sin consolidar nada.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Phases Section -->
+        <section id="fases" class="mb-12 sm:mb-16">
+            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12">Fases Comunes de Transformación</h2>
+            <div class="relative phase-timeline px-2 sm:px-0">
+                <!-- Phase 1 -->
+                <div class="phase-item mb-8 sm:mb-0">
+                    <div class="card p-3 sm:p-4">
+                        <h3 class="font-bold text-base sm:text-lg">1. Productividad Interna</h3>
+                        <p class="text-xs sm:text-sm text-gray-600">Pilotos de mejora interna y automatización de procesos de bajo riesgo.</p>
+                    </div>
+                </div>
+                <!-- Phase 2 -->
+                <div class="phase-item mb-8 sm:mb-0">
+                     <div class="card p-3 sm:p-4">
+                        <h3 class="font-bold text-base sm:text-lg">2. Extensión al Cliente</h3>
+                        <p class="text-xs sm:text-sm text-gray-600">IA como interfaz directa (chatbots) y desarrollo de "copilots" para empleados.</p>
+                    </div>
+                </div>
+                <!-- Phase 3 -->
+                <div class="phase-item mb-8 sm:mb-0">
+                     <div class="card p-3 sm:p-4">
+                        <h3 class="font-bold text-base sm:text-lg">3. Nuevos Productos y Modelos</h3>
+                        <p class="text-xs sm:text-sm text-gray-600">IA integrada en servicios personalizados y monetización de nuevos productos basados en IA.</p>
+                    </div>
+                </div>
+                <!-- Phase 4 -->
+                <div class="phase-item mb-8 sm:mb-0">
+                     <div class="card p-3 sm:p-4">
+                        <h3 class="font-bold text-base sm:text-lg">4. Escalamiento y Optimización</h3>
+                        <p class="text-xs sm:text-sm text-gray-600">Gobernanza integrada (ética, ROI) y creación de un ecosistema de innovación continua.</p>
+                    </div>
+                </div>
+                <!-- Phase 5 -->
+                <div class="phase-item">
+                     <div class="card p-3 sm:p-4">
+                        <h3 class="font-bold text-base sm:text-lg">5. Organización Orientada a IA</h3>
+                        <p class="text-xs sm:text-sm text-gray-600">Reestructura organizacional flexible y cultura de experimentación como ventaja competitiva.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        // JavaScript for tab functionality
+        function openTab(event, tabName) {
+            // Get all elements with class="tab-content" and hide them
+            const tabcontent = document.getElementsByClassName("tab-content");
+            for (let i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                tabcontent[i].classList.remove("active");
+            }
+
+            // Get all elements with class="tab-button" and remove the "active" class
+            const tabbuttons = document.getElementsByClassName("tab-button");
+            for (let i = 0; i < tabbuttons.length; i++) {
+                tabbuttons[i].classList.remove("active");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(tabName).style.display = "block";
+            document.getElementById(tabName).classList.add("active");
+            event.currentTarget.classList.add("active");
+        }
+    </script>
+
+</body>
+</html>
