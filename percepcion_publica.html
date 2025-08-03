@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percepción Pública de la IA - Tendencias IA 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shared_style.css">
+</head>
+<body>
+    <div class="container mx-auto p-4 sm:p-6 md:p-8">
+        <header class="text-center mb-10 md:mb-16">
+            <a href="index.html"><h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500 mb-4">Hub de Tendencias de IA 2025</h1></a>
+            <p class="text-base md:text-lg text-gray-400 max-w-3xl mx-auto mb-6">Navega a las diferentes secciones del análisis.</p>
+            <div class="flex flex-wrap justify-center gap-2 sm:gap-4">
+                <a href="analisis_de_estrategias.html" class="inline-block bg-gray-700 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-gray-600 transition-colors text-sm sm:text-base">Análisis de Estrategias</a>
+                <a href="percepcion_publica.html" class="inline-block bg-indigo-600 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-indigo-500 transition-colors text-sm sm:text-base">Percepción Pública</a>
+                <a href="impacto_por_industria.html" class="inline-block bg-gray-700 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-gray-600 transition-colors text-sm sm:text-base">Impacto por Industria</a>
+                <a href="ser_una_ai_company.html" class="inline-block bg-gray-700 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-gray-600 transition-colors text-sm sm:text-base">Ser una "AI Company"</a>
+                <a href="investigacion_contextual.html" class="inline-block bg-emerald-600 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-emerald-500 transition-colors text-sm sm:text-base">Investigación Contextual</a>
+                <a href="regulaciones_globales.html" class="inline-block bg-red-600 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-red-500 transition-colors text-sm sm:text-base">Regulaciones Globales</a>
+            </div>
+        </header>
+
+        <section id="public-perception">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-10 md:mb-12 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">La Percepción Pública de la IA</h2>
+            <div id="perception-content" class="space-y-8">
+                </div>
+        </section>
+    </div>
+
+    <script>
+        const perceptionContent = document.getElementById('perception-content');
+        function renderPublicPerceptionSection() {
+            perceptionContent.innerHTML = `
+                <div class="bg-gray-800 border border-gray-700 rounded-lg p-6">
+                    <h3 class="text-2xl font-bold text-white mb-4">Ambivalencia Emocional: Fascinación y Temor</h3>
+                    <p class="text-gray-300 mb-4">La opinión pública global está dividida. Existe un gran entusiasmo por el potencial de la IA (57%), pero al mismo tiempo, una preocupación significativa (43%) por sus implicaciones. Los principales temores son la deshumanización, la pérdida de control, el desempleo y la privacidad de los datos.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
+                        <div class="bg-gray-900 p-4 rounded-lg">
+                            <div class="text-4xl font-bold text-green-400">57%</div>
+                            <div class="text-gray-400">Se siente entusiasmado</div>
+                        </div>
+                        <div class="bg-gray-900 p-4 rounded-lg">
+                            <div class="text-4xl font-bold text-yellow-400">43%</div>
+                            <div class="text-gray-400">Siente preocupación</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-800 border border-gray-700 rounded-lg p-6">
+                    <h3 class="text-2xl font-bold text-white mb-4">La Confianza como Factor Clave</h3>
+                    <p class="text-gray-300 mb-4">La confianza es el mayor predictor de la adopción de la IA. Se construye sobre cuatro pilares:</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300">
+                        <li><strong>Competencia:</strong> ¿La IA funciona bien y toma decisiones correctas?</li>
+                        <li><strong>Transparencia:</strong> ¿Entiendo cómo y por qué toma una decisión?</li>
+                        <li><strong>Intención:</strong> ¿Busca mi bienestar o solo el de la empresa?</li>
+                        <li><strong>Control:</strong> ¿Puedo supervisar, intervenir o revertir sus acciones?</li>
+                    </ul>
+                     <p class="text-gray-300 mt-4">La aceptación aumenta cuando la IA justifica sus recomendaciones y se percibe que comparte los objetivos del usuario. El diseño conversacional y la empatía son más importantes que la precisión algorítmica sola.</p>
+                </div>
+            `;
+        }
+        renderPublicPerceptionSection();
+    </script>
+</body>
+</html>

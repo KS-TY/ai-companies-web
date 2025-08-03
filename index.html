@@ -3,314 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análisis de una AI Company</title>    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hub Interactivo: Tendencias de IA 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index_style.css">
 </head>
-<body class="text-gray-800">
+<body>
 
-    <div class="container mx-auto p-4 md:p-8">
-
-        <!-- Header Section -->
-        <header class="text-center mb-8 sm:mb-12">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-2">Análisis de una <span class="text-blue-600">AI Company</span></h1>
-            <p class="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto px-4">Una organización que integra la inteligencia artificial en el centro de su estrategia, operaciones y creación de valor.</p>
-            <div class="mt-4 space-x-2">
-                <a href="tendencias-ia.html" class="inline-block bg-blue-600 text-white px-5 py-2 rounded-lg font-semibold shadow hover:bg-blue-700 transition">Ver Tendencias IA 2025</a>
-                <a href="tendencias-usuario.html" class="inline-block bg-green-600 text-white px-5 py-2 rounded-lg font-semibold shadow hover:bg-green-700 transition">Ver Tendencias de Usuario IA</a>
-                <a href="regulaciones.html" class="inline-block bg-red-600 text-white px-5 py-2 rounded-lg font-semibold shadow hover:bg-red-700 transition">Ver Regulaciones IA</a>
+    <div class="container mx-auto p-4 sm:p-6 md:p-8">
+        <header class="text-center mb-10 md:mb-16">
+            <a href="index.html"><h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500 mb-4">Hub de Tendencias de IA 2025</h1></a>
+            <p class="text-base md:text-lg text-gray-400 max-w-3xl mx-auto mb-6">Un análisis interactivo de las fuerzas que moldean el futuro de la IA. Explora las tendencias o navega directamente a las secciones de análisis.</p>
+            <div class="flex flex-wrap justify-center gap-2 sm:gap-4">
+                <a href="analisis_de_estrategias.html" class="inline-block bg-gray-700 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-gray-600 transition-colors text-sm sm:text-base">Análisis de Estrategias</a>
+                <a href="percepcion_publica.html" class="inline-block bg-gray-700 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-gray-600 transition-colors text-sm sm:text-base">Percepción Pública</a>
+                <a href="impacto_por_industria.html" class="inline-block bg-gray-700 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-gray-600 transition-colors text-sm sm:text-base">Impacto por Industria</a>
+                <a href="ser_una_ai_company.html" class="inline-block bg-gray-700 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-gray-600 transition-colors text-sm sm:text-base">Ser una "AI Company"</a>
+                <a href="investigacion_contextual.html" class="inline-block bg-emerald-600 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-emerald-500 transition-colors text-sm sm:text-base">Investigación Contextual</a>
+                <a href="regulaciones_globales.html" class="inline-block bg-red-600 text-white font-semibold py-2 px-4 sm:py-3 sm:px-5 rounded-lg hover:bg-red-500 transition-colors text-sm sm:text-base">Regulaciones Globales</a>
             </div>
         </header>
 
-        <!-- Pillars Section -->
-        <section id="pilares" class="mb-8 sm:mb-16">
-            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-6 sm:mb-8">Pilares Fundamentales</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6">
-                <!-- Pillar 1 -->
-                <div class="card p-6 text-center">
-                    <div class="text-4xl mb-4">💻</div>
-                    <h3 class="font-bold text-lg mb-2">Tecnología e Infraestructura</h3>
-                    <p class="text-gray-600 text-sm">Modernización, migración a la nube y construcción de pipelines de datos.</p>
-                </div>
-                <!-- Pillar 2 -->
-                <div class="card p-6 text-center">
-                    <div class="text-4xl mb-4">🧠</div>
-                    <h3 class="font-bold text-lg mb-2">Talento Humano e Investigación</h3>
-                    <p class="text-gray-600 text-sm">Roles especializados (CAIO/CDO), formación masiva y laboratorios de investigación.</p>
-                </div>
-                <!-- Pillar 3 -->
-                <div class="card p-6 text-center">
-                    <div class="text-4xl mb-4">🤝</div>
-                    <h3 class="font-bold text-lg mb-2">Cultura y Adopción</h3>
-                    <p class="text-gray-600 text-sm">Enfoque "Human-in-the-loop": optimizar las capacidades humanas, no reemplazarlas.</p>
-                </div>
-                <!-- Pillar 4 -->
-                <div class="card p-6 text-center">
-                    <div class="text-4xl mb-4">📊</div>
-                    <h3 class="font-bold text-lg mb-2">Datos y Gobernanza</h3>
-                    <p class="text-gray-600 text-sm">Gestión de datos robusta, con correcta catalogación y seguimiento del linaje.</p>
-                </div>
-                <!-- Pillar 5 -->
-                <div class="card p-6 text-center">
-                    <div class="text-4xl mb-4">📈</div>
-                    <h3 class="font-bold text-lg mb-2">Procesos y Medición ROI</h3>
-                    <p class="text-gray-600 text-sm">Evaluación continua del retorno financiero y experimentación para definir métricas.</p>
-                </div>
-            </div>
-        </section>
+        <main id="trends-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"></main>
+    </div>
 
-        <!-- Case Studies Section -->
-        <section id="casos-de-estudio" class="mb-16">
-            <h2 class="text-3xl font-bold text-center mb-8">Casos de Estudio</h2>
-            <!-- Tabs -->
-            <div class="flex flex-col sm:flex-row justify-center border-b mb-6">
-                <button class="tab-button active text-base sm:text-lg font-semibold py-2 px-4 sm:px-6 border-b-2 w-full sm:w-auto" onclick="openTab(event, 'exitos')">Éxitos ✅</button>
-                <button class="tab-button text-base sm:text-lg font-semibold py-2 px-4 sm:px-6 border-b-2 border-transparent w-full sm:w-auto" onclick="openTab(event, 'fracasos')">Fracasos ❌</button>
-            </div>
-
-            <!-- Successes Content -->
-            <div id="exitos" class="tab-content active">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
-                    <div class="card p-4 sm:p-6">
-                        <h3 class="font-bold text-xl mb-3 text-blue-700">Microsoft</h3>
-                        <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li><strong>Estrategia Integrada:</strong> Capacidades de IA en todo su portafolio (Copilots).</li>
-                            <li><strong>Núcleo del Negocio:</strong> Azure AI Services genera miles de millones como proveedor de infraestructura.</li>
-                            <li><strong>Cultura:</strong> Entrenamiento masivo en IA y equipos multidisciplinarios integrados.</li>
-                        </ul>
-                    </div>
-                    <div class="card p-4 sm:p-6">
-                        <h3 class="font-bold text-xl mb-3 text-blue-700">JPMorgan Chase</h3>
-                        <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li><strong>Arquitectura Propia:</strong> Desarrollo interno de "LLM Stack" para uso en toda la organización.</li>
-                            <li><strong>Liderazgo Dedicado:</strong> CAIO y CDO reportando directamente al CEO, con +400 proyectos de IA.</li>
-                            <li><strong>Enfoque Dual:</strong> Uso de IA generativa (análisis) y predictiva (fraude, riesgo).</li>
-                        </ul>
-                    </div>
-                    <div class="card p-4 sm:p-6">
-                        <h3 class="font-bold text-xl mb-3 text-blue-700">Capital One</h3>
-                        <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li><strong>100% en la Nube:</strong> Migración completa a AWS para facilitar MLOps y datos en tiempo real.</li>
-                            <li><strong>Gestión de Riesgo:</strong> Aprobación de créditos con datos alternativos y modelos de predicción de impago.</li>
-                            <li><strong>Experiencia de Cliente:</strong> Asesoría financiera personalizada a través de IA en su app móvil.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Failures Content -->
-            <div id="fracasos" class="tab-content">
-                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
-                    <div class="card p-4 sm:p-6">
-                        <h3 class="font-bold text-xl mb-3 text-red-700">IBM (Watson)</h3>
-                        <p class="font-semibold mb-2">¿Qué falló?</p>
-                        <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li><strong>Expectativas Exageradas:</strong> Watson fue promocionado como una IA general que no era.</li>
-                            <li><strong>Problemas de ROI:</strong> Integraciones costosas y mantenimiento complejo sin retorno claro.</li>
-                            <li><strong>Pérdida de Confianza:</strong> Clientes abandonaron los productos por falta de visión.</li>
-                        </ul>
-                    </div>
-                    <div class="card p-4 sm:p-6">
-                        <h3 class="font-bold text-xl mb-3 text-red-700">General Electric (Predix)</h3>
-                        <p class="font-semibold mb-2">¿Qué falló?</p>
-                        <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li><strong>Falta de Foco:</strong> Intentó ser industrial, de software y de IA a la vez, confundiendo al mercado.</li>
-                            <li><strong>Desalineación Cultural:</strong> Equipos técnicos y de negocio no estaban preparados para el cambio.</li>
-                            <li><strong>Pérdidas Masivas:</strong> La división GE Digital fue desmantelada y Predix vendida.</li>
-                        </ul>
-                    </div>
-                    <div class="card p-4 sm:p-6">
-                        <h3 class="font-bold text-xl mb-3 text-red-700">Zume Inc.</h3>
-                        <p class="font-semibold mb-2">¿Qué falló?</p>
-                        <ul class="list-disc list-inside space-y-2 text-gray-700">
-                            <li><strong>Visión Sobreinflada:</strong> Se presentaba como una "AI logistics platform" sin una tecnología robusta.</li>
-                            <li><strong>Desconexión Operativa:</strong> La automatización (robots de pizza) no era rentable ni escalable.</li>
-                            <li><strong>Pérdida de Foco:</strong> Cambió de pizza a logística y empaques sin consolidar nada.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Phases Section -->
-        <section id="fases" class="mb-12 sm:mb-16">
-            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12">Fases Comunes de Transformación</h2>
-            <div class="relative phase-timeline px-2 sm:px-0">
-                <!-- Phase 1 -->
-                <div class="phase-item mb-8 sm:mb-0">
-                    <div class="card p-3 sm:p-4">
-                        <h3 class="font-bold text-base sm:text-lg">1. Productividad Interna</h3>
-                        <p class="text-xs sm:text-sm text-gray-600">Pilotos de mejora interna y automatización de procesos de bajo riesgo.</p>
-                    </div>
-                </div>
-                <!-- Phase 2 -->
-                <div class="phase-item mb-8 sm:mb-0">
-                     <div class="card p-3 sm:p-4">
-                        <h3 class="font-bold text-base sm:text-lg">2. Extensión al Cliente</h3>
-                        <p class="text-xs sm:text-sm text-gray-600">IA como interfaz directa (chatbots) y desarrollo de "copilots" para empleados.</p>
-                    </div>
-                </div>
-                <!-- Phase 3 -->
-                <div class="phase-item mb-8 sm:mb-0">
-                     <div class="card p-3 sm:p-4">
-                        <h3 class="font-bold text-base sm:text-lg">3. Nuevos Productos y Modelos</h3>
-                        <p class="text-xs sm:text-sm text-gray-600">IA integrada en servicios personalizados y monetización de nuevos productos basados en IA.</p>
-                    </div>
-                </div>
-                <!-- Phase 4 -->
-                <div class="phase-item mb-8 sm:mb-0">
-                     <div class="card p-3 sm:p-4">
-                        <h3 class="font-bold text-base sm:text-lg">4. Escalamiento y Optimización</h3>
-                        <p class="text-xs sm:text-sm text-gray-600">Gobernanza integrada (ética, ROI) y creación de un ecosistema de innovación continua.</p>
-                    </div>
-                </div>
-                <!-- Phase 5 -->
-                <div class="phase-item">
-                     <div class="card p-3 sm:p-4">
-                        <h3 class="font-bold text-base sm:text-lg">5. Organización Orientada a IA</h3>
-                        <p class="text-xs sm:text-sm text-gray-600">Reestructura organizacional flexible y cultura de experimentación como ventaja competitiva.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Nueva Sección: Resumen General de IA en Empresas -->
-        <section class="mb-12">
-            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">Resumen General de IA en Empresas</h2>
-            <div class="card p-6 mb-6">
-                <p>La inteligencia artificial (IA) impulsa la innovación en las empresas y está provocando cambios estructurales profundos. Más del 75% de las organizaciones ya utilizan alguna forma de IA en sus funciones comerciales, aunque muchas personas interactúan con IA a diario sin ser conscientes de ello.</p>
-            </div>
-        </section>
-
-        <section class="mb-12">
-            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">Tendencias Clave y Aplicaciones de la IA</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="card p-6">
-                    <h3 class="font-bold text-lg mb-2">Procesamiento de Lenguaje Natural (NLP)</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Fundamental para la interacción con el cliente: chatbots, análisis de sentimientos y traducción automática.</li>
-                        <li>Se espera que el 25% de las empresas integren NLP en atención al cliente para 2025.</li>
-                        <li>El 32% de los bancos utilizarán chatbots basados en NLP.</li>
-                        <li>Empresas líderes: Google, Microsoft, JP Morgan Chase, Bank of America.</li>
-                    </ul>
-                </div>
-                <div class="card p-6">
-                    <h3 class="font-bold text-lg mb-2">Machine Learning (ML)</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Personalización de recomendaciones (35% de ventas en Amazon, 75% del contenido visto en Netflix).</li>
-                        <li>Detección de fraudes (Visa, PayPal, Mastercard), diagnóstico médico y segmentación de clientes.</li>
-                        <li>El 80% de las empresas reportan mejora en eficiencia operativa tras implementar ML.</li>
-                    </ul>
-                </div>
-                <div class="card p-6">
-                    <h3 class="font-bold text-lg mb-2">Visión por Computadora y Robótica</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Automatización de inspecciones y control de calidad en manufactura, salud y seguridad.</li>
-                        <li>Robótica con IA (Tesla, Amazon) mejora productividad en logística y fabricación.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="mb-12">
-            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">Contribuciones de la IA a la Innovación Empresarial</h2>
-            <div class="card p-6 mb-6">
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Optimización de procesos: automatiza tareas rutinarias y libera talento humano.</li>
-                    <li>Toma de decisiones basada en datos: algoritmos predictivos mejoran la estrategia empresarial.</li>
-                    <li>Personalización de experiencias: ofertas y servicios ajustados al comportamiento del cliente.</li>
-                    <li>Eficiencia operativa y competitividad: mayor productividad, reducción de costos y adaptación al cambio.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="mb-12">
-            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">Desafíos de la Implementación de IA</h2>
-            <div class="card p-6 mb-6">
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Falta de entendimiento sobre IA (26%) y escasez de talento especializado (19%).</li>
-                    <li>Preocupaciones sobre privacidad y seguridad de datos (20%).</li>
-                    <li>Altos costos de adopción (16%) y dificultad de integración con sistemas existentes (16%).</li>
-                    <li>Resistencia cultural al cambio tecnológico.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="mb-12">
-            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">Estrategias para una Adopción Exitosa</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="card p-6">
-                    <h3 class="font-bold text-lg mb-2">Gobernanza y Liderazgo</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Gobernanza de IA supervisada por el CEO se asocia a mayor impacto financiero.</li>
-                    </ul>
-                </div>
-                <div class="card p-6">
-                    <h3 class="font-bold text-lg mb-2">Rediseño de Flujos de Trabajo</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Integrar IA generativa directamente en operaciones maximiza el impacto económico.</li>
-                    </ul>
-                </div>
-                <div class="card p-6">
-                    <h3 class="font-bold text-lg mb-2">Capacitación y Cultura</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Invertir en formación, fomentar cultura de innovación y comunicación interna continua.</li>
-                    </ul>
-                </div>
-                <div class="card p-6">
-                    <h3 class="font-bold text-lg mb-2">Hoja de Ruta y Medición</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Definir KPIs y mecanismos de retroalimentación para mejora continua.</li>
-                    </ul>
-                </div>
-                <div class="card p-6">
-                    <h3 class="font-bold text-lg mb-2">Alianzas Estratégicas</h3>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Colaborar con universidades, startups y expertos externos para acceder a talento e innovación.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="mb-12">
-            <h2 class="text-2xl sm:text-3xl font-bold text-center mb-8">Recomendaciones Específicas para Davivienda</h2>
-            <div class="card p-6 mb-6">
-                <ul class="list-disc list-inside text-gray-700 space-y-2">
-                    <li>Implementar IA en atención al cliente y back-office para reducir costos y mejorar la experiencia.</li>
-                    <li>Capacitar equipos internos en IA y análisis de datos para disminuir dependencia externa.</li>
-                    <li>Crear un roadmap progresivo: comenzar con pilotos en áreas de bajo riesgo.</li>
-                    <li>Fomentar alianzas con universidades y startups para acceder a talento y soluciones innovadoras.</li>
-                    <li>Establecer una unidad interna dedicada a "IA y Gobierno de Datos" para gestión ética y estratégica.</li>
-                </ul>
-            </div>
-        </section>
-
+    <div id="trend-modal" class="modal-backdrop hidden">
+        <div id="modal-content-container" class="modal-content bg-gray-900 rounded-xl shadow-2xl w-11/12 md:w-3/4 lg:w-2/3 p-6 md:p-8 relative border border-gray-700"></div>
     </div>
 
     <script>
-        // JavaScript for tab functionality
-        function openTab(event, tabName) {
-            // Get all elements with class="tab-content" and hide them
-            const tabcontent = document.getElementsByClassName("tab-content");
-            for (let i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-                tabcontent[i].classList.remove("active");
-            }
+        const trendsData = [
+            { id: 'agential-ai', title: 'IA Agéntica', summary: 'Asistentes inteligentes que realizan tareas complejas por su cuenta.', icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>`, description: 'Imagina un asistente que no solo responde a tus preguntas, sino que actúa. Le pides "organiza un viaje de fin de semana" y él solo busca vuelos, reserva hotel y añade el plan a tu calendario. Eso es la IA Agéntica: sistemas que entienden un objetivo, planifican los pasos y usan herramientas digitales para cumplirlo sin que tengas que supervisar cada acción.', useCases: ['Asistentes personales que gestionan tu agenda y correos.', 'Sistemas que organizan proyectos, asignando tareas y siguiendo su progreso.', 'Agentes de compra que buscan y adquieren productos por ti.'], leaders: ['OpenAI', 'Adept AI', 'Figure AI (robots)', 'Cognition Labs'], advantages: ['Automatización de tareas completas, no solo partes.', 'Ahorro de tiempo y aumento de la productividad.', 'Capacidad para resolver problemas con múltiples pasos.'], challenges: ['Riesgo de que tomen acciones no deseadas si no se controlan bien.', 'Dilemas sobre cuánta autonomía deben tener.', 'Requieren mucha potencia de computación.'], scalability2028: { score: 5, commentary: 'Para 2028, se espera que estos agentes sean comunes en el trabajo y el hogar. Su crecimiento masivo dependerá de que sean cada vez más fiables y seguros.' } },
+            { id: 'generative-ai-mature', title: 'IA Generativa Especializada', summary: 'Modelos más pequeños, eficientes y entrenados para tareas específicas.', icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>`, description: 'La carrera por tener el modelo de IA "más grande" está cambiando. Ahora, la clave es la eficiencia. Las empresas están creando modelos más pequeños y especializados, entrenados con sus propios datos. Piensa en un chatbot de un banco que solo sabe de finanzas, pero lo sabe todo. Son más rápidos, baratos y seguros.', useCases: ['Asistentes de servicio al cliente que conocen a fondo los productos de una empresa.', 'Herramientas que redactan informes financieros usando la jerga correcta.', 'Sistemas de IA que funcionan en tu móvil sin necesidad de internet.'], leaders: ['Hugging Face', 'Mistral AI', 'Meta (Llama)', 'Google (Gemma)'], advantages: ['Son más baratos de usar y entrenar.', 'Mayor privacidad, los datos de la empresa no salen de casa.', 'Mejor rendimiento en tareas concretas.'], challenges: ['Se necesita conocimiento técnico para adaptarlos.', 'Pueden "inventar" respuestas si no se entrenan bien.', 'No tienen el conocimiento general de los modelos gigantes.'], scalability2028: { score: 4, commentary: 'La adopción será masiva. Para 2028, la mayoría de las grandes compañías tendrán sus propios modelos especializados para tareas internas, reduciendo su dependencia de terceros.' } },
+            { id: 'multimodal-ai', title: 'IA Multimodal', summary: 'La IA que entiende texto, imágenes, audio y video a la vez.', icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l-1-1m5-5l-1-1m-6 9v2m0-14v2m-3 5h2m11 0h2m-5-5l1.414-1.414a1 1 0 011.414 0l.293.293m-10 10l1.414 1.414a1 1 0 001.414 0l.293-.293" /></svg>`, description: 'Esta IA rompe las barreras entre formatos. Puede ver, escuchar y leer al mismo tiempo. Por ejemplo, puedes mostrarle una foto de tu nevera, preguntarle en voz alta "¿Qué puedo cocinar?" y te responderá con una receta en texto y un video de cómo prepararla.', useCases: ['Diagnósticos médicos que combinan radiografías, notas del doctor e historial.', 'Educación interactiva que responde a preguntas sobre un diagrama.', 'Crear campañas de marketing (texto, imagen y video) a partir de una idea.'], leaders: ['Google (Gemini)', 'OpenAI (GPT-4o)', 'Anthropic (Claude)'], advantages: ['Entiende el contexto de forma mucho más rica.', 'Permite formas de interacción más naturales.', 'Puede resolver problemas más complejos.'], challenges: ['Necesita cantidades enormes de datos para entrenar.', 'Es muy costosa de operar.', 'Es difícil equilibrar la importancia de cada formato.'], scalability2028: { score: 5, commentary: 'Será el estándar para todas las interacciones con la IA. Para 2028, esperaremos que nuestros asistentes puedan ver lo que vemos y entender nuestras preguntas de voz.' } },
+            { id: 'edge-ai', title: 'IA en tus Dispositivos (Edge AI)', summary: 'Procesamiento inteligente directamente en tu móvil o coche.', icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>`, description: 'En lugar de enviar tus datos a un servidor lejano (la nube) para que una IA los procese, la "Edge AI" lo hace todo en tu propio dispositivo. Es más rápido, privado y funciona incluso sin conexión a internet.', useCases: ['Reconocimiento facial en tu móvil que funciona sin internet.', 'Cámaras de seguridad que analizan el video en tiempo real sin subirlo a la nube.', 'Coches autónomos que toman decisiones en milisegundos.'], leaders: ['NVIDIA', 'Qualcomm', 'Apple', 'Intel'], advantages: ['Respuesta instantánea.', 'Mayor privacidad y seguridad de tus datos.', 'Funciona sin conexión.', 'Ahorra costes de internet.'], challenges: ['Los dispositivos tienen potencia y memoria limitadas.', 'Es más complejo actualizar los modelos de IA.', 'Requiere hardware especializado.'], scalability2028: { score: 4, commentary: 'Casi todos los nuevos smartphones, coches y dispositivos inteligentes incluirán chips de IA potentes. Será clave para funciones de privacidad y respuesta inmediata.' } },
+            { id: 'governance-ai', title: 'Gobernanza y Regulación', summary: 'Estableciendo las reglas del juego para una IA segura y justa.', icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12l-1.825-6.691a1.986 1.986 0 00-1.924-1.43H6.75a1.986 1.986 0 00-1.924 1.43L3 12m18 0l-1.825 6.691a1.986 1.986 0 01-1.924 1.43H6.75a1.986 1.986 0 01-1.924-1.43L3 12m18 0H3m14-5a2 2 0 11-4 0 2 2 0 014 0z" /></svg>`, description: 'A medida que la IA se vuelve más poderosa, se necesita un manual de instrucciones. Gobiernos y organizaciones están creando leyes y estándares para asegurar que la IA se use de forma segura, ética y justa.', useCases: ['Clasificar sistemas de IA por nivel de riesgo (Ley de IA de la UE).', 'Auditorías obligatorias para algoritmos que toman decisiones críticas.', 'Creación de comités de ética de IA dentro de las empresas.'], leaders: ['Unión Europea (AI Act)', 'Gobierno de EE.UU.', 'NIST', 'OCDE y ONU'], advantages: ['Aumenta la confianza del público.', 'Reduce riesgos de discriminación.', 'Establece reglas claras para las empresas.', 'Fomenta una innovación más responsable.'], challenges: ['Una regulación muy estricta podría frenar la innovación.', 'La tecnología avanza más rápido que las leyes.', 'Es difícil de aplicar a nivel mundial.'], scalability2028: { score: 3, commentary: 'Para 2028, la mayoría de los países desarrollados tendrán leyes de IA. El gran desafío será unificar estas reglas a nivel global.' } },
+            { id: 'explainable-ai', title: 'IA Explicable (XAI)', summary: 'Abriendo la "caja negra" para entender sus decisiones.', icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16l4-4m0 0l4-4m-4 4l4 4m-4-4L8 8m13-3l-4.5 4.5M9 15l-4.5 4.5M12 12l4.5 4.5M12 12l-4.5-4.5" /></svg>`, description: 'Muchos modelos de IA son como una "caja negra": te dan una respuesta, pero no te dicen por qué. La IA Explicable (XAI) busca cambiar eso, creando métodos para que los sistemas puedan justificar sus decisiones en un lenguaje que los humanos podamos entender.', useCases: ['Un sistema que no solo detecta una enfermedad, sino que resalta el área sospechosa.', 'Un banco que explica por qué se denegó un préstamo.', 'Identificar y corregir sesgos en los modelos.'], leaders: ['Google', 'IBM', 'Fiddler AI'], advantages: ['Aumenta la confianza en la IA.', 'Permite mejorar y corregir los modelos.', 'Es un requisito legal en muchos sectores.', 'Facilita la colaboración entre humanos y máquinas.'], challenges: ['Hacer un modelo más explicable puede hacerlo un poco menos preciso.', 'Las explicaciones pueden ser todavía muy técnicas.', 'Riesgo de simplificar demasiado el razonamiento del modelo.'], scalability2028: { score: 4, commentary: 'La explicabilidad dejará de ser una opción para convertirse en una obligación en sectores regulados como finanzas y salud. Veremos herramientas de XAI integradas por defecto.' } }
+        ];
 
-            // Get all elements with class="tab-button" and remove the "active" class
-            const tabbuttons = document.getElementsByClassName("tab-button");
-            for (let i = 0; i < tabbuttons.length; i++) {
-                tabbuttons[i].classList.remove("active");
-            }
+        const trendsGrid = document.getElementById('trends-grid');
+        const modal = document.getElementById('trend-modal');
+        const modalContentContainer = document.getElementById('modal-content-container');
 
-            // Show the current tab, and add an "active" class to the button that opened the tab
-            document.getElementById(tabName).style.display = "block";
-            document.getElementById(tabName).classList.add("active");
-            event.currentTarget.classList.add("active");
+        function renderScalabilityBar(score) {
+            let bars = '';
+            for (let i = 0; i < 5; i++) {
+                bars += `<div class="w-1/5 h-2 ${i < score ? 'bg-indigo-500' : 'bg-gray-600'} rounded-full mx-0.5"></div>`;
+            }
+            return `<div class="flex w-full">${bars}</div>`;
         }
-    </script>
 
+        function renderTrendCards() {
+            trendsGrid.innerHTML = '';
+            trendsData.forEach(trend => {
+                const card = document.createElement('div');
+                card.className = 'trend-card bg-gray-800 rounded-lg p-6';
+                card.setAttribute('data-id', trend.id);
+                card.innerHTML = `
+                    <div class="mb-4">${trend.icon}</div>
+                    <h2 class="text-xl font-bold text-white mb-2">${trend.title}</h2>
+                    <p class="text-gray-400 flex-grow mb-4">${trend.summary}</p>
+                    <div class="w-full mt-auto">
+                        <p class="text-sm font-semibold text-gray-300 mb-2">Potencial a 2028</p>
+                        ${renderScalabilityBar(trend.scalability2028.score)}
+                    </div>
+                `;
+                card.addEventListener('click', () => showModal(trend.id));
+                trendsGrid.appendChild(card);
+            });
+        }
+
+        function showModal(trendId) {
+            const trend = trendsData.find(t => t.id === trendId);
+            if (!trend) return;
+            modalContentContainer.innerHTML = `
+                <button id="close-modal" class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+                </button>
+                <div class="flex items-start mb-4">
+                    ${trend.icon}
+                    <h2 class="text-2xl md:text-3xl font-bold ml-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">${trend.title}</h2>
+                </div>
+                <p class="text-gray-300 mb-6">${trend.description}</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div><h3 class="text-lg md:text-xl font-semibold text-white mb-3 border-b-2 border-indigo-500 pb-1">Casos de Uso Clave</h3><ul class="list-disc list-inside space-y-2 text-gray-400 text-sm md:text-base">${trend.useCases.map(item => `<li>${item}</li>`).join('')}</ul></div>
+                    <div><h3 class="text-lg md:text-xl font-semibold text-white mb-3 border-b-2 border-indigo-500 pb-1">Líderes y Pioneros</h3><ul class="list-disc list-inside space-y-2 text-gray-400 text-sm md:text-base">${trend.leaders.map(item => `<li>${item}</li>`).join('')}</ul></div>
+                    <div><h3 class="text-lg md:text-xl font-semibold text-green-400 mb-3">Ventajas</h3><ul class="list-disc list-inside space-y-2 text-gray-400 text-sm md:text-base">${trend.advantages.map(item => `<li>${item}</li>`).join('')}</ul></div>
+                    <div><h3 class="text-lg md:text-xl font-semibold text-red-400 mb-3">Desafíos</h3><ul class="list-disc list-inside space-y-2 text-gray-400 text-sm md:text-base">${trend.challenges.map(item => `<li>${item}</li>`).join('')}</ul></div>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg"><h3 class="text-lg md:text-xl font-semibold text-cyan-400 mb-2">Visión y Escalabilidad a 2028</h3><p class="text-gray-300 text-sm md:text-base">${trend.scalability2028.commentary}</p></div>
+            `;
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+            document.getElementById('close-modal').addEventListener('click', hideModal);
+        }
+
+        function hideModal() {
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) hideModal();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === "Escape" && !modal.classList.contains('hidden')) hideModal();
+        });
+
+        // Inicializar la aplicación
+        renderTrendCards();
+    </script>
 </body>
 </html>
